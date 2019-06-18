@@ -1,6 +1,6 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Hot-deck Imputation'
+description: 'Learner will be able to impute values based on how similar those values are to other values using R. '
 free_preview: true
 ---
 
@@ -41,3 +41,16 @@ This is an example exercise.
 ```{r}
 
 ```
+
+---
+
+## Impute by Matching
+
+```yaml
+type: VideoExercise
+key: a297bfdc4c
+xp: 50
+```
+
+`@projector_key`
+8a75340ffe779b8d3cfdd8597519ffe0
