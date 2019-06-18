@@ -4,46 +4,6 @@ description: 'Learner will be able to impute values based on how similar those v
 free_preview: true
 ---
 
-## Example coding exercise
-
-```yaml
-type: NormalExercise
-key: 2bafef99a3
-lang: r
-xp: 100
-skills: 1
-```
-
-This is an example exercise.
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
 ## Impute by Matching
 
 ```yaml
@@ -112,17 +72,5 @@ sleepI2 <- hotdeck(sleep,ord_var="BodyWgt")
 `@sct`
 ```{r}
 ex() %>% check_error()
+success_msg('Good job on completing the exercise!', praise = FALSE)
 ```
-
----
-
-## Insert exercise title here
-
-```yaml
-type: VideoExercise
-key: 3c77b1e144
-xp: 50
-```
-
-`@projector_key`
-dce5b262f598fdec1944fc99e121eddc
