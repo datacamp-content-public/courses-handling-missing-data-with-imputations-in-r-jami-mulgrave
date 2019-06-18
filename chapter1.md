@@ -111,7 +111,7 @@ sleepI2 <- hotdeck(sleep,ord_var="BodyWgt")
 
 `@sct`
 ```{r}
-
+ex() %>% check_error()
 ```
 
 ---
