@@ -71,6 +71,5 @@ sleepI2 <- hotdeck(sleep,ord_var="BodyWgt")
 
 `@sct`
 ```{r}
-ex() %>% check_error()
 success_msg('Good job on completing the exercise!', praise = FALSE)
 ```
