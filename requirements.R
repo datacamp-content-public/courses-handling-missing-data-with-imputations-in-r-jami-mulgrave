@@ -2,6 +2,11 @@ library(remotes)
 
 ##### Install specific package versions from CRAN #####
 
+install_version("VIM", "4.8.0")
+install_version("mice", "3.6.0")
+install_version("simputation", "0.2.3")
+install_version("ggplot2", "3.2.0")
+
 # install_version("ggplot2", "3.0.0")
 # install_version("dplyr", "0.7.5")
 # install_version("tidyr", "0.8.1")
