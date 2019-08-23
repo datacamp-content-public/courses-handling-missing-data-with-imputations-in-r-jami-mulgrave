@@ -131,4 +131,6 @@ data$ImputedTakeHome <- impute(data$TakeHome, mean)
 #User should use impute()
 
 #User should use agg()
+
+print('Great job getting the exercise done!')
 ```
