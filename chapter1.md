@@ -89,7 +89,7 @@ Now we will practice the simple imputation techniques that we have learned in R.
 `@instructions`
 First let's visualize the missing variables.  Create an aggregation plot using VIM.  Does there appear to be a lot of missing values or a little?
 
-Next, let's try mean imputation for the missing values.  Try using mean imputation with the HMSIC package for the two variables that have missing data.
+Next, let's try mean imputation for the missing values.  Try using mean imputation with the Hmisc package for the two variables that have missing data.
 
 `@hint`
 
@@ -108,7 +108,7 @@ data <- read.csv(file = "class-grades.csv", header = TRUE) #load the data
 ```{r}
 agg_data <- (, numbers = TRUE, prop = c(TRUE, FALSE))
 
-data$ImputedFinal <- (, )
+data$ImputedFinal <- ___(___,___)
 
 data$ImputedTakeHome <- (, )
 
@@ -133,4 +133,21 @@ data$ImputedTakeHome <- impute(data$TakeHome, mean)
 #User should use agg()
 
 print('Great job getting the exercise done!')
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: f003294662
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{r}
+
 ```
